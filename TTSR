@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T07:23:58.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.3" etag="rExGNJYSBBg-ARm4LdXN" type="github"><diagram id="gBK55UyE00KJ3k6Bco5E">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-02T07:24:21.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ZCQldpJbhUDsTkxmnHzG" version="14.8.3" type="github">
+  <diagram id="gBK55UyE00KJ3k6Bco5E" name="第 1 页">
+    <mxGraphModel dx="2656" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-1" value="main.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-490" y="70" width="360" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-2" value="+ &lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;dataloader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(0 , 134 , 179)&quot;&gt;get_dataloader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;args&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="30" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-3" value="加载模型：&lt;br&gt;+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;_model &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(167 , 29 , 93)&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;TTSR&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(0 , 134 , 179)&quot;&gt;TTSR&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;args&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;).&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(0 , 134 , 179)&quot;&gt;to&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;device&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="56" width="360" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-4" value="损失函数：loss&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;b&gt;+&lt;/b&gt; _loss_all &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(167 , 29 , 93)&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(0 , 134 , 179)&quot;&gt;get_loss_dict&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;args&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;_logger&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="100" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-5" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="150" width="360" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-6" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="178" width="360" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-7" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="206" width="360" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-8" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-1">
+          <mxGeometry y="234" width="360" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-9" value="dataloader.py" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-100" y="70" width="730" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-10" value="+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;m &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(167 , 29 , 93)&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(0 , 134 , 179)&quot;&gt;import_module&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;color: rgb(10 , 201 , 10) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;dataset/cufed.py&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-9">
+          <mxGeometry y="30" width="730" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-11" value="+&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;dataloader_train &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(167 , 29 , 93)&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(0 , 134 , 179)&quot;&gt;DataLoader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(99 , 163 , 92)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;data_train=&lt;/span&gt;&lt;span style=&quot;font-family: , monospace ; font-size: 11.3pt ; color: rgb(10 , 201 , 10)&quot;&gt;实例化&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; color: rgb(10 , 201 , 10) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;cufed.py&lt;/span&gt;&lt;span style=&quot;font-family: , monospace ; font-size: 11.3pt ; color: rgb(10 , 201 , 10)&quot;&gt;里的&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; color: rgb(10 , 201 , 10) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;TrainSet&lt;/span&gt;&lt;span style=&quot;font-family: , monospace ; font-size: 11.3pt ; color: rgb(10 , 201 , 10)&quot;&gt;类&lt;/span&gt;&lt;span style=&quot;color: rgb(99 , 163 , 92) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-9">
+          <mxGeometry y="56" width="730" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-12" value="+ dataloader = {&#39;train&#39;: dataloader_train, &#39;test&#39;: dataloader_test}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-9">
+          <mxGeometry y="90" width="730" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-13" value="cufed.py" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="440" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-14" value="TrainSet():&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;得到&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;LR&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;LR↑&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;RF&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;RF↑↓&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;HR(&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;为了进行&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;LR&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt&quot;&gt;的图像&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-13">
+          <mxGeometry y="26" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-13">
+          <mxGeometry y="52" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-13">
+          <mxGeometry y="60" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zzDdYfo4uK3va0Msn0sw-2" target="zzDdYfo4uK3va0Msn0sw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="113" />
+              <mxPoint x="-120" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zzDdYfo4uK3va0Msn0sw-11" target="zzDdYfo4uK3va0Msn0sw-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="143" />
+              <mxPoint x="640" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-19" value="+&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt ; color: rgb(167 , 29 , 93)&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;dataloader&amp;nbsp;&lt;/span&gt;&lt;span&gt;加载数据集成功&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="192" width="730" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-20" value="TTSR" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="312" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-21" value="def __init__(self, args):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=#FFFFFF;fontColor=#3399FF;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="52" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-23" value="self.num_res_blocks =  [16, 16, 8, 4]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="60" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-24" value="self.LTE      = LTE.LTE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="86" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-25" value="self.LTE_copy = LTE.LTE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="112" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-26" value="self.SearchTransfer = SearchTransfer.SearchTransfer()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="138" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-27" value="self.MainNet = MainNet.MainNet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-20">
+          <mxGeometry y="164" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-28" value="LTE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="364" width="300" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-29" value="def __init__(self, requires_grad=True, rgb_range=1):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=#FFFFFF;fontColor=#3399FF;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-28">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-28">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-31" value="self.slice1 = vgg19(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-28">
+          <mxGeometry y="60" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-32" value="self.slice2 = vgg19(2,3)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-28">
+          <mxGeometry y="86" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zzDdYfo4uK3va0Msn0sw-33" value="self.slice3 = vgg19(4,5)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="zzDdYfo4uK3va0Msn0sw-28">
+          <mxGeometry y="112" width="300" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
